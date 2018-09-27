@@ -1,0 +1,39 @@
+<idea-plugin>
+  <id>com.github.me10zyl.enhancedfilesearch</id>
+  <name>Enhanced file search</name>
+  <version>1.0</version>
+  <vendor email="me10zyl@qq.com" url="http://www.zengyilun.com">github</vendor>
+
+  <description><![CDATA[
+      Enter short description for your plugin here.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+      <action class="SearchAction" id="com.github.me10zyl.enhancedfilesearch.SearchAction" popup="true" text="Enhanced File Search Action" description="Enhanced file search..." >
+        <add-to-group group-id="ToolsMenu" anchor="first"/>
+        <keyboard-shortcut first-keystroke="control shift w" keymap="$default"/>
+      </action>
+  </actions>
+
+</idea-plugin>
