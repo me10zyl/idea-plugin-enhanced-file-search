@@ -5,13 +5,13 @@
   <vendor email="me10zyl@qq.com" url="http://www.zengyilun.com">github</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      Shortcut to locate directory, support Search.
+      快速定位文件夹，支持搜索.<br>
+      <em>control shift w</em> to open search menu.
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      v1.0
     ]]>
   </change-notes>
 
